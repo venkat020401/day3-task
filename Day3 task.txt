@@ -1,0 +1,32 @@
+resume data in JSON format
+--------------------------
+var resume={
+  "name":"venkatajalapathy",
+  "fathers_name":"perumalsamy",
+  "age":"23",
+  "gender":"male",
+  "dob":"25-12-1998",
+  "status":"unmarried"
+};
+
+//for in loop
+-------------
+for(var key in obj){
+console.log(key,obj[key]);
+}
+
+//for loop
+----------
+var resume={
+  "name":"venkatajalapathy",
+  "fathers name":"perumalsamy",
+  "age":"23"
+};
+
+for(var key in resume){
+console.log(key,resume[key]);
+}
+
+loop -  Loops are used in js to perform repeated tasks based on given condition.
+     -  Conditions typically return true or false.
+     -  A loop will continue running until the defined condition returns false.
